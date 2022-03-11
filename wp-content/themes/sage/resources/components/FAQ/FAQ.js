@@ -6,25 +6,54 @@ const FAQ = () => {
 
     const qas = [
         {   id : 1, 
-            question : 'What can I expect from the Collings Universe?', 
-            answer : 'More info will be posted before the mint.' 
+            question : 'How can I mint a Collings Universe NFT?', 
+            answer : 'The community will be able to mint via our website. Once the mint begins, the mint button on our website will redirect you to the mint page' 
         },
-        {   id : 2, 
-            question : 'What are the initial benefits of having an Collings (Atlas) Keypass?', 
-            answer : 'The cost of the NFT mint will be determined 24 hours before it goes live. This will not be your ordinary cheap NFT mint from an anonymous team. When getting a NFT, you’re essentially getting 3 NFT sets for one, as holders will get FREE mint to our next few sets, among many other benefits.' 
+        {
+            id : 6,
+            question : 'What is the mint price?',
+            answer : 'Free + Gas Fees (we suggest allocating at lease .02 for gas fees)'
         },
-        {   id : 3, 
-            question : 'What kind of NFTs are you planning to release?', 
-            answer : 'Once you have a NFT, you will be able to join our private community chat groups and announcement channels. To do this you just need to verify ownership using Collab Land in Discord. More details will be posted in Discord info channels.' 
+        {
+            id : 7,
+            question : 'How do I get private community access?',
+            answer : 'Once you have a Collings Universe NFT, you will be able to join our private community chat groups in Discord. To do this you just need to verify ownership using Collab Land.'
         },
-        {   id : 4, 
-            question : 'What do you mean by real-world values?', 
-            answer : 'Yes, you will be able to mint 1 NFT each from our future NFT sets for each NFT that you hold. So if you have 3, then you will get 3 each from the next 2 NFT sets we launch. This will also increase your odds of getting whitelist spots in future launchpad projects and other benefits to come.' 
+        {
+            id : 8,
+            question : 'When is the next Collings Universe Sets launching?',
+            answer : 'We currently have 2 further NFT sets in the works. These sets will be launched in Q3 and Q4 2022'
         },
-        {   id : 5, 
-            question : 'What community plans do you have moving forward?', 
-            answer : 'Lorem ipsum dolor sit met, consectetuer aqipiscing elit, sed diam nonummy nibh euismod tincidunt ut lagret dolore magna aliquam erat volutpat. Ut wisi enim ad minim venom, quis nostrud exerci.' 
-        }
+        {
+            id : 9,
+            question : 'How long does my Collings Universe NFT last?',
+            answer : 'The Collings Universe NFT is embedded in the Ethereum blockchain and will last forever. We aim to provide value to the holders in perpetuity'
+        },
+        {
+            id : 10,
+            question : 'What do you mean by real-world values?',
+            answer : 'We aim to provide real world experiences using the NFT as your access pass, by holding the pass you will also get physical merchandise or you could start a physical company partnering with Collings.\n\nYes, you will be able to mint 2 NFT each from our future NFT sets for each NFT that you hold. So if you have 3, then you will get 3 each from the next 2 NFT sets we launch. This will also increase your odds of getting whitelist spots in future launchpad projects and other benefits to come.'
+        },
+        {
+            id : 11,
+            question : 'Is there a limit to how many can be minted?',
+            answer : '2 NFT\'s per wallet'
+        },
+        {
+            id : 12,
+            question : 'Will there be royalties on the re-sell?',
+            answer : 'Yes, 7% (5% to the creators, 2% to the Collings Foundation wallet)'
+        },
+        {
+            id : 13,
+            question : 'Will you retain any NFTs?',       
+            answer : 'Yes, Collings Universe will hold 1400 NFT\'s & 100 will be given to the team'
+        },
+        {
+            id : 14,
+            question : 'Can I resell my Collings Universe NFTS?',
+            answer : 'Yes, you will have the ability to re-sell your NFT via platforms such as Opensea & Looks Rare'
+        },
     ]
 
     return ( 
