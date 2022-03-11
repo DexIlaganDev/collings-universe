@@ -26,7 +26,7 @@ const Header = () => {
                             <div className="d-flex">
                                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li className="nav-item">
-                                        <a className="nav-link gray-white active" aria-current="page" href="#ROADMAP">ROAD MAP</a>
+                                        <a className="nav-link gray-white active" aria-current="page" href="#UTILITY">UTILITY</a>
                                     </li>
                                     <li className="nav-item">
                                         <a className="nav-link gray-white" href="#FAQ">FAQ</a>
