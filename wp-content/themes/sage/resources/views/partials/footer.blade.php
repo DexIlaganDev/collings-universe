@@ -11,7 +11,7 @@
                         <a target='_blank' href="https://www.facebook.com/collingsuniverse"><img src="@asset('images/Icon awesome-facebook-square.png')" class="img-fluid"></a>
                     </li>
                     <li class="d-inline-block mx-2">
-                        <a href="https://www.instagram.com/collingsuniverse/"><img src="@asset('images/Icon awesome-instagram.png')" class="img-fluid"></a>
+                        <a target='_blank' href="https://www.instagram.com/collingsuniverse/"><img src="@asset('images/Icon awesome-instagram.png')" class="img-fluid"></a>
                     </li>
                     <li class="d-inline-block mx-2">
                         <a target='_blank' href="https://twitter.com/CollingsVerse"><img src="@asset('images/Icon awesome-twitter-square.png')" class="img-fluid"></a>
