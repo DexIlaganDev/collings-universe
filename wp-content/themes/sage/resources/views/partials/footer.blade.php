@@ -8,17 +8,17 @@
             <div class="col-md-6">
                 <ul>
                     <li class="d-inline-block mx-2">
-                        <img src="@asset('images/Icon awesome-facebook-square.png')" class="img-fluid">
+                        <a href="https://www.facebook.com/collingsuniverse"><img src="@asset('images/Icon awesome-facebook-square.png')" class="img-fluid"></a>
                     </li>
                     <li class="d-inline-block mx-2">
-                        <img src="@asset('images/Icon awesome-instagram.png')" class="img-fluid">
+                        <a href="https://www.instagram.com/collingsuniverse/"><img src="@asset('images/Icon awesome-instagram.png')" class="img-fluid"></a>
                     </li>
                     <li class="d-inline-block mx-2">
-                        <img src="@asset('images/Icon awesome-twitter-square.png')" class="img-fluid">
+                        <a href="https://twitter.com/CollingsVerse"><img src="@asset('images/Icon awesome-twitter-square.png')" class="img-fluid"></a>
                     </li>
-                    <li class="d-inline-block mx-2">
+                    <!-- <li class="d-inline-block mx-2">
                         <img src="@asset('images/Icon awesome-discord.png')" class="img-fluid">
-                    </li>
+                    </li> -->
                     <li class="d-inline-block nav-item">
                         <a class="nav-link gray-white" href="#">Terms & Services</a>
                     </li>
