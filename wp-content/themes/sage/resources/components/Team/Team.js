@@ -7,23 +7,8 @@ const Team = () => {
         {
             id : 1,
             name : 'Christian Gravias',
-            desc : 'Lorem Ipsum'
+            desc : '& COLLINGS NFT'
         },
-        {
-            id : 2,
-            name : 'Michael Piccoli',
-            desc : 'Lorem Ipsum'
-        },
-        {
-            id : 3,
-            name : 'Harry Manaras',
-            desc : 'Lorem Ipsum'
-        },
-        {
-            id : 4,
-            name : 'Mike Su',
-            desc : 'Lorem Ipsum'
-        }
     ]
 
     return ( 
