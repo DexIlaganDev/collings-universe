@@ -32,7 +32,7 @@ const FAQ = () => {
         {
             id : 10,
             question : 'What do you mean by real-world values?',
-            answer : 'We aim to provide real world experiences using the NFT as your access pass, by holding the pass you will also get physical merchandise or you could start a physical company partnering with Collings.\n\nYes, you will be able to mint 2 NFT each from our future NFT sets for each NFT that you hold. So if you have 3, then you will get 3 each from the next 2 NFT sets we launch. This will also increase your odds of getting whitelist spots in future launchpad projects and other benefits to come.'
+            answer : "We aim to provide real world experiences using the NFT as your access pass, by holding the pass you will also get physical merchandise or you could start a physical company partnering with Collings. \n \n Yes, you will be able to mint 2 NFT each from our future NFT sets for each NFT that you hold. So if you have 3, then you will get 3 each from the next 2 NFT sets we launch. This will also increase your odds of getting whitelist spots in future launchpad projects and other benefits to come."
         },
         {
             id : 11,
