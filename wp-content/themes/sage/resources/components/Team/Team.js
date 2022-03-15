@@ -33,7 +33,7 @@ const Team = () => {
                     
                     <div className="row justify-content-center mb-4">
                         <div className="col-md-8">
-                            <p className="text-white text-center">
+                            <p className="text-white text-center d-none">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam rem quo molestias maxime. Eum aperiam dignissimos ratione ea, corporis optio veniam minima quia veritatis impedit voluptas, repellat sapiente omnis suscipit expedita vel maxime culpa fuga saepe est molestias assumenda asperiores beatae itaque.
                             </p>
                         </div>

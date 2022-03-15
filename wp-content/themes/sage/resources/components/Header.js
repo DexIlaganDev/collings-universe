@@ -37,19 +37,19 @@ const Header = () => {
                                     <li className="nav-item my-auto">
                                         <ul>
                                             <li className="d-inline-block mx-2">
-                                                <img src={SAGE_DIST_PATH + '/assets/images/Icon awesome-facebook-square.png'} className="img-fluid" />
+                                                <a target="_blank" href="https://www.facebook.com/collingsuniverse"><img src={SAGE_DIST_PATH + '/assets/images/Icon awesome-facebook-square.png'} className="img-fluid" /></a>
                                             </li>
                                             <li className="d-inline-block mx-2">
                                              
-                                                <img src={SAGE_DIST_PATH + '/assets/images/Icon awesome-instagram.png'} className="img-fluid" />
+                                                <a target="_blank" href="https://www.instagram.com/collingsuniverse/"><img src={SAGE_DIST_PATH + '/assets/images/Icon awesome-instagram.png'} className="img-fluid" /></a>
                                             </li>
                                             <li className="d-inline-block mx-2">
                                              
-                                                <img src={SAGE_DIST_PATH + '/assets/images/Icon awesome-twitter-square.png'} className="img-fluid" />
+                                                <a target="_blank" href="https://twitter.com/CollingsVerse"><img src={SAGE_DIST_PATH + '/assets/images/Icon awesome-twitter-square.png'} className="img-fluid" /></a>
                                             </li>
                                             <li className="d-inline-block mx-2">
                                              
-                                                <img src={SAGE_DIST_PATH + '/assets/images/Icon awesome-discord.png'} className="img-fluid" />
+                                                <a target="_blank" href="#"><img src={SAGE_DIST_PATH + '/assets/images/Icon awesome-discord.png'} className="img-fluid" /></a>
                                             </li>
                                         </ul>
                                     </li>
