@@ -27,7 +27,7 @@ const KeyPassPage = () => {
                         
                         <section className="keypass__gif">
                             <div className="keypass__giff__wrapper">
-                                
+                                <img src={SAGE_DIST_PATH + `/assets/images/card-alpha.gif`} className="img__keypass-gif" />
                             </div>
                         </section>
 
