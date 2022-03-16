@@ -7,7 +7,67 @@
 
     --desc : .8rem;
     --mvertical : 1rem;
+
+    --firstSection : 86px
 }
+
+
+/* Fonts */
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url('../fonts/Helvetica\ Neu\ Bold.ttf');
+    font-weight : bold;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url('../fonts/Helvetica\ Neue\ UltraLight.ttf');
+    font-weight:300
+    
+}
+
+@font-face {
+    font-family: "Avenir Next LT Pro";
+    src : url('../fonts/Avenir\ Next\ LT\ Pro\ Regular.otf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Avenir Next LT Pro";
+    src : url('../fonts/AvenirNextLTPro-Medium.otf');
+    font-weight:500;
+}
+
+@font-face {
+    font-family: "Avenir Next LT Pro";
+    src : url('../fonts/Avenir\ Next\ LT\ Pro\ Bold.otf');
+    font-weight:bold;
+}
+/* end fonts */
+
+/* helper */
+.font-hn-light {
+    font-family: 'Helvetica Neue';
+    font-weight: 300;
+}
+.font-hn-bold {
+    font-family: 'Helvetica Neue';
+    font-weight: bold;
+}
+.font-avenir {
+    font-family: "Avenir Next LT Pro";
+    font-weight: normal;
+}
+.font-avenir-medium {
+    font-family: 'Avenir Next LT Pro';
+    font-weight: 500;
+}
+.font-avenir-bold {
+    font-family: 'Avenir Next LT Pro';
+    font-weight: bold;
+}
+/* end helper */
+
 
 @media screen and ( min-width: 767px ) {
     :root {
@@ -415,3 +475,88 @@ body {
 }
 
 /* END  TIMELINE */
+
+/* KEYPASS MAIN PAGE */
+
+#keypass-page{
+
+
+    .keypass__wrapper {
+
+        @media screen and (min-width : 767px) {
+
+            display: flex;
+            flex: row;
+
+        }
+    
+    
+        .keypass__gif {
+
+            @media screen and (min-width : 767px) {
+                margin-left: auto;
+            }
+        }
+
+    
+    }//end keypass__wrapper
+
+
+    padding-top : var(--firstSection);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height:calc( 100vh - 86px );
+
+    @media screen and (min-width:767px) {
+        height:calc( 100vh - 86px );
+    }
+
+
+    .keypass__section {
+
+        .text-blue {
+            color:#42B1D2;
+        }
+
+        &__header {
+            
+            span{
+                font-size:1.5rem;
+                letter-spacing: 3px;
+                @media screen and (min-width:767px) {
+                    font-size:2rem;
+                }
+            }
+            div{
+                font-size:3.5rem;
+                line-height: 1.2;
+                @media screen and (min-width:767px) {
+                    font-size:3.7rem;
+                    
+                }
+            }
+        }//end header
+
+        &-mint-max {
+            margin-top: 1rem;
+            font-size: .8rem;
+            margin-left: 0.4rem;
+        }
+
+    }// end keypass section
+
+
+    .btn-connect {
+        background-color: #42B1D2;
+        border-radius: 0;
+        font-family: 'Helvetica Neue';
+        padding: 0.5em 2em;
+        margin-top:2rem;
+        font-weight: bold;
+    }
+}
+
+/* END KEYPASS MAIN PAGE */
