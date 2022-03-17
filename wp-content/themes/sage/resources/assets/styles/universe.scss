@@ -480,6 +480,11 @@ body {
 
 #keypass-page{
 
+    background-image: url('../images/moon.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left top;
+
 
     .keypass__wrapper {
 
@@ -498,7 +503,8 @@ body {
             }
 
             .img__keypass-gif {
-                max-width:450px;
+                width:100%;
+                max-width:650px;
             }
         }
 
