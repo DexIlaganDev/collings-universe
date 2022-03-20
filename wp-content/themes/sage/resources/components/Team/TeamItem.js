@@ -2,7 +2,7 @@ import React from 'react';
 
 const TeamItem = ({name,desc}) => {
     return ( 
-        <div className="col-md-12">
+        <div className="col-md-auto">
             <div className="justify-content-center d-flex">
                 <div className="testimonial-box-top-border mb-5">
                     <div className="div bg-blue rounded-pill"></div>

@@ -7,7 +7,12 @@ const Team = () => {
         {
             id : 1,
             name : 'Christian Gravias',
-            desc : '& COLLINGS NFT'
+            desc : ''
+        },
+        {
+            id : 2,
+            name : 'COLLINGS NFT',
+            desc : ''
         },
     ]
 
@@ -25,7 +30,7 @@ const Team = () => {
                     </div>
                     
 
-                <div className="row">
+                <div className="row justify-content-center">
                     { teamMembers.map( person => <TeamItem key={person.id} name={person.name} desc={person.desc} />  ) }
                 </div>
             </div>

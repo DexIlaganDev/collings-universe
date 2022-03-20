@@ -10,9 +10,7 @@ const KeyPass = () => {
                 <div className="row justify-content-center">
                     <div className="col-md-6 text-center">
 
-                        <video autoPlay={true} loop muted className="img-fluid raduis" >
-                            <source src={SAGE_DIST_PATH + '/assets/images/card-key.mp4' } type="video/mp4" />
-                        </video>
+                        <img src={SAGE_DIST_PATH + `/assets/images/card-alpha.gif`} className="home-gif" />
                         <p className="intro__content__maintext text-center text-white">
                         </p>
                     </div>

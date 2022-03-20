@@ -16,9 +16,9 @@
                     <li class="d-inline-block mx-2">
                         <a target='_blank' href="https://twitter.com/CollingsVerse"><img src="@asset('images/Icon awesome-twitter-square.png')" class="img-fluid"></a>
                     </li>
-                    <!-- <li class="d-inline-block mx-2">
-                        <img src="@asset('images/Icon awesome-discord.png')" class="img-fluid">
-                    </li> -->
+                    <li class="d-inline-block mx-2">
+                        <a target="_blank" href="https://discord.com/invite/collingsuniverse"><img src="@asset('images/Icon awesome-discord.png')" class="img-fluid"></a>
+                    </li>
                     <li class="d-inline-block nav-item">
                         <a target='_blank' class="nav-link gray-white" href="#">Terms & Services</a>
                     </li>
