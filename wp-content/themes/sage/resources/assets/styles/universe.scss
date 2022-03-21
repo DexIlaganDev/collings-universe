@@ -4,12 +4,18 @@
     --blue-dark: #0b1419;
     --gray-white: #c2c4c5;
     --gray: #434343;
-
+    --aqua : #56C0CB;
     --desc : 1rem;
     --mvertical : 1rem;
 
-    --firstSection : 86px
+    --firstSection : 86px;
+
+    --hotTitle : 2rem;
+    @media screen and (min-width:767px) {
+        --hotTitle : 2.5rem;
+    }
 }
+
 
 
 /* Fonts */
@@ -65,6 +71,14 @@
 .font-avenir-bold {
     font-family: 'Avenir Next LT Pro';
     font-weight: bold;
+}
+
+.text-aqua {
+    color : var(--aqua) !important;
+
+    &:hover{
+        text-decoration: none;
+    }
 }
 /* end helper */
 
@@ -579,3 +593,26 @@ body {
 }
 
 /* END KEYPASS MAIN PAGE */
+
+/** BLOG **/
+#hero-blog {
+
+    background-image:url('../images/blog-bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @media screen and (min-width:767px) {
+        height: 75vh;
+    }
+}
+
+.blog-hot-title {
+    font-size: var(--hotTitle);
+    margin-bottom:2rem;
+}
+
+.blog-hot-title-two {
+    font-size:1.3rem;
+}
+
+/** END BLOG **/
