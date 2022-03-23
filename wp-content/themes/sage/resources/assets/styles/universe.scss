@@ -304,10 +304,11 @@ body {
 }
 .qa p:last-child {
     background-color: #2a3e40 !important;
-    padding: .9em;
+    padding: 2em;
     border-radius: 5px;
     color: white !important;
     text-align: center;
+    margin-bottom:3rem;
 }
 /* / QA */
 
@@ -593,6 +594,17 @@ body {
 }
 
 /* END KEYPASS MAIN PAGE */
+
+
+/* TEAM */
+
+.twitter-handle a {
+    color :var(--blue) !important;
+}
+
+
+/**END TEAM **/
+
 
 /** BLOG **/
 #hero-blog {

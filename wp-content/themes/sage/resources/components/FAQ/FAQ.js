@@ -60,7 +60,7 @@ const FAQ = () => {
         <div className="container-fluid py-5">
             <div className="container">
                 <div className="row justify-content-center">
-                    <div className="col-md-6 ">
+                    <div className="col-md-auto ">
                         <p className="text-center h1 fw-bold blue mb-5">FAQ</p>
                             
                         { qas.map( q => <FAQItem key={q.id} question={q.question} answer={q.answer} /> ) }
