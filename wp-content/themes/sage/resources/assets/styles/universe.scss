@@ -215,8 +215,8 @@ body {
 .timeline__item {
     padding: 1rem;
     padding-top:0;
-    border-image: linear-gradient(to right, skyblue 0%, hotpink 100%);
-    border-image-slice: 1;
+    // border-image: linear-gradient(to right, skyblue 0%, hotpink 100%);
+    // border-image-slice: 1;
     position: relative;
     margin: 1rem 3rem 1rem 1rem;
     clear: both;
@@ -353,6 +353,8 @@ body {
 
     &__maintext{
         font-size: var(--desc);
+        margin-top: 1.2rem;
+
 
         @media screen and ( min-width:767px ) {
             margin-top:2.5rem;
@@ -366,7 +368,35 @@ body {
         position:relative;
         overflow: hidden;
 
+        &:before{
+            
+            @media screen and (min-width:767px) {
+                
+                background-image:url('../images/group_75.png');
+                content: " ";
+                position: absolute;
+                right: -11%;
+                top: -20%;
+                width: 100%;
+                height: 100%;
+                background-size: contain;
+                background-position: top right;
+                background-repeat: no-repeat;
+            }
+
+            
+        }//end before
+
         @media screen and ( min-width: 767px ) {
+            padding-bottom: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        @media screen and ( min-width: 992px ) {
+            padding-bottom: 0px;
             height: calc( 100vh - 10px );
             display: flex;
             justify-content: center;
@@ -382,12 +412,14 @@ body {
             top: 6rem;
             height: auto;
             width: 100%;
+            display:none;
 
             @media screen and ( min-width:767px ) {
                 right: -7rem;
                 left:unset;
                 top: -4rem;
                 width: 62vw;
+                display:block;
             }
             
             @media screen and ( min-width: 992px ) {

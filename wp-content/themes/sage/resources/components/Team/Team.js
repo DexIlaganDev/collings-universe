@@ -19,7 +19,7 @@ const Team = () => {
     ]
 
     return ( 
-        <div className="container-fluid py-5 px-0">
+        <div className="container-fluid py-0 py-md-5 px-0">
             <div className="container">
                 <p className="text-center h1 fw-bold blue mb-4">TEAM</p>
                     

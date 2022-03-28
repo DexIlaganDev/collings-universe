@@ -3,10 +3,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 my-auto">
-                <p class="gray-white fw-bold">Collings Universe ©. All rights reserved.</p>
+                <p class="text-center text-md-left gray-white fw-bold">Collings Universe ©. All rights reserved.</p>
             </div>
             <div class="col-md-6">
-                <ul>
+                <ul class="text-center justify-content-center text-md-left p-0 m-0">
                     <li class="d-inline-block mx-2">
                         <a target='_blank' href="https://www.facebook.com/collingsuniverse"><img src="@asset('images/Icon awesome-facebook-square.png')" class="img-fluid"></a>
                     </li>

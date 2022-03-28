@@ -19,7 +19,7 @@ const IntroContent = () => {
 
     useEffect( () => {
 
-        runAnimation()
+        //runAnimation()
     
         
     },[])
@@ -28,7 +28,7 @@ const IntroContent = () => {
 
     return ( 
         <section className="intro__content__section">
-            <img src={SAGE_DIST_PATH + `/assets/images/group_75.png`} className="image_75" />
+            {/* <img src={SAGE_DIST_PATH + `/assets/images/group_75.png`} className="image_75" /> */}
             <div className="container py-0">
                 <div className="row hero-text">
                     <div className="col-md-8 col-lg-6 text-center">
