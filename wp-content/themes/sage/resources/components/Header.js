@@ -49,7 +49,7 @@ const Header = () => {
                                             </li>
                                             <li className="d-inline-block mx-2">
                                              
-                                                <a target="_blank" href="https://discord.com/invite/collingsuniverse"><img src={SAGE_DIST_PATH + '/assets/images/Icon awesome-discord.png'} className="img-fluid" /></a>
+                                                <a target="_blank" href="https://discord.gg/collingsuniverse"><img src={SAGE_DIST_PATH + '/assets/images/Icon awesome-discord.png'} className="img-fluid" /></a>
                                             </li>
                                         </ul>
                                     </li>
