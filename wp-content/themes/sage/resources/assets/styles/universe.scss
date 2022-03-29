@@ -92,7 +92,11 @@
 
 body {
     font-family: Mulish !important;
-    background-color: var(--blue-dark);
+    // background-color: var(--blue-dark);
+
+    background-image: url('../images/bg-top.png'), url('../images/bg.png'), url('../images/bg-bot.png');
+    background-position: top left, top left, bottom left;
+    
 }
 
 /* Utility classes */
