@@ -98,7 +98,7 @@ let webpackConfig = {
         include: config.paths.assets,
         loader: 'url',
         options: {
-          limit: 4000096,
+          limit: 90000096,
           name: `[path]${assetsFilenames}.[ext]`,
         },
       },
@@ -107,7 +107,7 @@ let webpackConfig = {
         include: /node_modules/,
         loader: 'url',
         options: {
-          limit: 4000096,
+          limit: 90000096,
           outputPath: 'vendor/',
           name: `${config.cacheBusting}.[ext]`,
         },
